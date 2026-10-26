@@ -16,7 +16,7 @@ This is a static website: no build step, package installation, API keys or serve
 
 | File | Purpose |
 | --- | --- |
-| `data.js` | Pattern descriptions, principles, testing methods, compliance references, lifecycle approaches, sources, glossary and checklist items. |
+| `data.js` | Pattern descriptions, principles, testing methods, compliance references, lifecycle approaches, sources, glossary, checklist items and the `codeExamples` catalog. |
 | `app.js` | Page layouts, introductory text, stack recommendations, AI prompts and interactive behaviour. |
 | `style.css` | Colours, typography, spacing, responsive layout and print formatting. |
 | `index.html` | Main page shell, browser title/description, navigation containers and script loading. |
@@ -60,3 +60,19 @@ Bookmarks and checklist marks use this browser's local storage. The website and 
 ## Scope
 
 Educational guidance, not a certification or a substitute for project-specific design, code review, testing, security, legal applicability or specialist assurance. Official references are linked in **Sources & scope** and in the compliance cards. The original explanations are teaching summaries; consult the applicable primary documents for requirements.
+
+## Paired Python and JavaScript examples
+
+Open any design concept for language tabs, copyable snippets, expected output and scope notes. Testing & QA cards also have a paired-example button. The catalog has **69 pairs**: 57 design concepts and 12 testing methods.
+
+Examples are stored in `data.js` under `codeExamples`, keyed by the corresponding stable concept ID (`p0`–`p22`, `d0`–`d19`, `a0`–`a13`, `t0`–`t11`). Each item includes `use` and `avoid` selection guidance as well as `summary`, `python`, `javascript`, `output`, `limit` and `verification`. One timing example also defines `outputPattern` for variable output.
+
+- The **134 self-contained snippets** were executed and their expected output checked in Python 3.12 and Node.js 24.
+- The **four Playwright templates** (two methods × two languages) were syntax-checked; they need optional dependencies, a browser installation and the running local guide. They were not executed with Playwright in this environment.
+- JavaScript examples target Node.js and should be saved as `.cjs`; some use Node.js 24's built-in SQLite module. They are not all browser-console snippets.
+- Architecture examples are limited local sketches; they do not deploy distributed services, send real payments or establish compliance.
+- The website only displays/copies code. It never evaluates the examples.
+
+If you edit a snippet, re-run it, check its expected output and retain an accurate verification label. When adding concepts, keep the IDs and examples aligned. Verify outputs independently of the implementation and test relevant failure cases.
+
+All 69 pairs also include explicit when-to-use and when-not-to-use/pitfall guidance. For design principles, the avoid section describes misuse of the principle rather than recommending abandonment of it.

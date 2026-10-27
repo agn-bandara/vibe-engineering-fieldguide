@@ -76,3 +76,9 @@ Examples are stored in `data.js` under `codeExamples`, keyed by the correspondin
 If you edit a snippet, re-run it, check its expected output and retain an accurate verification label. When adding concepts, keep the IDs and examples aligned. Verify outputs independently of the implementation and test relevant failure cases.
 
 All 69 pairs also include explicit when-to-use and when-not-to-use/pitfall guidance. For design principles, the avoid section describes misuse of the principle rather than recommending abandonment of it.
+
+## Reading the guide
+
+The design catalog uses compact rows; select a concept name or description to open it. Each detail view has **Guide**, **Code** and **AI prompt** tabs. Guide opens first with use/avoid guidance and a practical example. Technical caveats remain available in an expandable section. Code retains the Python/JavaScript switcher, expected output, copy button and verification details. Arrow keys, Home and End navigate both sets of tabs.
+
+The five main field sheets stay visible in the sidebar; supporting tools are grouped under **Tools & references**. The longer design introduction is expandable so the catalog is near the top of the page. Body text and contrast have been increased while retaining the original visual theme.

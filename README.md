@@ -79,6 +79,6 @@ All 69 pairs also include explicit when-to-use and when-not-to-use/pitfall guida
 
 ## Reading the guide
 
-The design catalog uses compact rows; select a concept name or description to open it. Each detail view has **Guide**, **Code** and **AI prompt** tabs. Guide opens first with use/avoid guidance and a practical example. Technical caveats remain available in an expandable section. Code retains the Python/JavaScript switcher, expected output, copy button and verification details. Arrow keys, Home and End navigate both sets of tabs.
+The design catalog uses responsive cards; select a card to open it, or use its separate star button to save it. Each detail view has **Guide**, **Code** and **AI prompt** tabs. Guide opens first with use/avoid guidance and a practical example. Technical caveats remain available in an expandable section. Code retains the Python/JavaScript switcher, expected output, copy button and verification details. Arrow keys, Home and End navigate both sets of tabs.
 
 The five main field sheets stay visible in the sidebar; supporting tools are grouped under **Tools & references**. The longer design introduction is expandable so the catalog is near the top of the page. Body text and contrast have been increased while retaining the original visual theme.

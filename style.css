@@ -16,3 +16,9 @@
 @media print{.concept-row{break-inside:avoid}.concept-open{display:grid;color:black}.concept-description{color:#333}.concept-row>.save{display:none}.nav-tools{display:none}.intro-explainer{display:none}.concept-meta .tag{font-size:9px}}
 /* Keep columns aligned across rows regardless of text length. */
 .concept-open{width:100%;height:100%}
+
+/* Design concepts retain the browsable card layout. */
+.design-cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.design-card{position:relative;min-width:0;min-height:250px;padding:21px;transition:border-color .15s,box-shadow .15s}.design-card:hover,.design-card:focus-within{border-color:#8d9d87;box-shadow:0 4px 16px #243b360b}.design-card .card-meta{flex-wrap:wrap;gap:7px;margin-bottom:17px}.design-card .level{font-size:10px;white-space:normal}.design-card h3{font-size:23px;line-height:1.25;margin-bottom:12px}.design-card-open{border:0;background:none;padding:0;text-align:left;font:inherit;letter-spacing:inherit}.design-card-open:after{content:"";position:absolute;inset:0}.design-card-open:focus-visible{outline:none}.design-card:has(.design-card-open:focus-visible){outline:3px solid var(--coral);outline-offset:3px}.design-card>p{margin-bottom:21px}.design-card .card-actions{padding-top:11px;min-height:44px}.design-card-link{display:flex;align-items:center;gap:12px;font-size:13px;color:#365b43}.design-card .save{position:relative;z-index:1;min-width:40px;min-height:40px;margin:-5px -8px -5px 0;font-size:21px}.design-card .save:hover{background:#edf1e5}
+@media(max-width:1200px){.design-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.design-cards{grid-template-columns:minmax(0,1fr);gap:13px}.design-card{min-height:0;padding:19px}}
+@media print{.design-card{break-inside:avoid;box-shadow:none}.design-card .save{display:none}.design-card-open:after{display:none}}
